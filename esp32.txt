@@ -9,9 +9,9 @@ void setup() {
 void loop() {
   // Bật đèn LED
   digitalWrite(LED_PIN, HIGH);
-  delay(1000);  // Chờ 1 giây
+  delay(500);  // Chờ 1 giây
 
   // Tắt đèn LED
   digitalWrite(LED_PIN, LOW);
-  delay(1000);  // Chờ 1 giây
+  delay(200);  // Chờ 1 giây
 }
