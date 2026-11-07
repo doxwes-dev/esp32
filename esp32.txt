@@ -1,0 +1,17 @@
+
+#define LED_PIN 2  // Chân GPIO 2 nối với LED
+
+void setup() {
+  // Thiết lập chân LED là OUTPUT
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+  // Bật đèn LED
+  digitalWrite(LED_PIN, HIGH);
+  delay(1000);  // Chờ 1 giây
+
+  // Tắt đèn LED
+  digitalWrite(LED_PIN, LOW);
+  delay(1000);  // Chờ 1 giây
+}
